@@ -1,0 +1,84 @@
+/* utilities styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0 45px 0;
+}
+.header{
+    width: 90%;
+}
+/* nav bar */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* banner */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 102px;
+}
+.banner-text{
+    width: 862px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-text h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    line-height: 75px;
+}
+.banner-text p{
+    color: #727272;
+    margin: 14px 0 33px 0;
+    line-height: 26px;
+}
+.banner-text button{
+    padding: 20px 25px;
+    background-color: #FF900E;
+    color: #fff;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner-image img{
+    width: 100%;
+}
