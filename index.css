@@ -240,6 +240,10 @@ main{
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
+    transition: .3s;
+}
+.achievement:hover{
+    transform: scale(1.2);
 }
 .achievement h2{
     font-size: 45px;
@@ -297,6 +301,71 @@ footer p{
     color: #424242;
 }
 
+
+/* contact form styles */
+.contact-form{
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.contact{
+    width: 50%;
+}
+.contact-title{
+    margin-bottom: 80px;
+}
+.contact-title h2{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.contact-title p{
+    color: #727272;
+    line-height: 26px;
+    margin-top: 24px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #424242;
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+form h3{
+    color: #FDFDFD;
+    font-size: 24px;
+    font-weight: 700;
+}
+form input{
+    color: #FDFDFD;
+    background: none;
+    outline: none;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 10px 14px;
+    width: 200px;
+    margin-top: 30px;
+}
+form textarea{
+    background: none;
+    outline: none;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px 14px;
+    margin: 16px 0 24px 0;
+    color: #FDFDFD;
+}
+form button{
+    width: 150px;
+}
 
 
 
