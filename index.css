@@ -429,7 +429,7 @@ form button{
 
     /* providing features section */
     .providing-feature{
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 45px;
     }
     .providing-features-text{
@@ -564,7 +564,7 @@ form button{
 
     /* providing features section */
     .providing-feature{
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 45px;
     }
     .providing-features-text{
