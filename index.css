@@ -492,6 +492,18 @@ form button{
         gap: 24px;
         margin-top: 24px;
     }
+
+    /* contact responsive */
+    .contact-form{
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .contact{
+        width: 100%;
+    }
+    form{
+        padding: 30px;
+    }
 }
 
 
@@ -614,5 +626,18 @@ form button{
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
         margin-top: 34px;
+    }
+
+      
+    /* contact responsive */
+    .contact-form{
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .contact{
+        width: 100%;
+    }
+    form{
+        padding: 30px;
     }
 }
