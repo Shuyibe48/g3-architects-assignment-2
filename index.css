@@ -17,6 +17,10 @@ button{
     font-size: 20px;
     font-weight: 600;
 }
+button h1{
+    font-size: 64px;
+    font-weight: 700;
+}
 
 /* header styles */
 header{
@@ -140,11 +144,75 @@ main{
     margin: 24px 0 32px 0;
 }
 
-
-
-
-
-
+/* providing features styles */
+.providing-features{
+    margin: 130px 0;
+}
+.providing-feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 146px;
+}
+.providing-features-text{
+    width: 45%;
+}
+.providing-features-text-section-title{
+    position: relative;
+    padding-left: 20px;
+}
+.providing-features-text-section-title::before{
+    content: '';
+    background-color: #FF900E;
+    width: 5px;
+    height: 106px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.providing-features-text-section-title h2{
+    color: #131313;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52px;
+}
+.providing-features-text-section-describe{
+    margin: 24px 0 30px 0;
+}
+.providing-features-text-section-describe p{
+    color: #727272;
+    line-height: 26px;
+}
+.card{
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.card h5{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card p{
+    color: #727272;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.providing-features-image{
+    width: 55%;
+    position: relative;
+}
+.providing-features-image button{
+    padding: 45px;
+    line-height: 70px;
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+}
+.providing-features-image img{
+    width: 100%;
+}
 
 
 
@@ -209,6 +277,39 @@ main{
     .features-list-text p{
         line-height: normal;
     }
+
+    /* providing features section */
+    .providing-feature{
+        flex-direction: column-reverse;
+        gap: 45px;
+    }
+    .providing-features-text{
+        width: 100%;
+    }
+    .providing-features-text-section-title::before{
+        height: 80px;
+    }
+    .providing-features-text-section-title h2{
+        line-height: normal;
+    }
+    .providing-features-text-section-title p{
+        line-height: normal;
+    }
+    .card p{
+        line-height: normal;
+    }
+    .providing-features-image{
+        width: 100%;
+    }
+    button h1{
+        font-size: 24px;
+    }
+    .providing-features-image button{
+        padding: 20px 24px;
+        line-height: normal;
+        bottom: 0;
+        left: 0;
+    }
 }
 
 
@@ -265,5 +366,38 @@ main{
     }
     .features-list-text p{
         line-height: normal;
+    }
+
+    /* providing features section */
+    .providing-feature{
+        flex-direction: column-reverse;
+        gap: 45px;
+    }
+    .providing-features-text{
+        width: 100%;
+    }
+    .providing-features-text-section-title::before{
+        height: 50px;
+    }
+    .providing-features-text-section-title h2{
+        line-height: normal;
+    }
+    .providing-features-text-section-title p{
+        line-height: normal;
+    }
+    .card p{
+        line-height: normal;
+    }
+    .providing-features-image{
+        width: 100%;
+    }
+    button h1{
+        font-size: 24px;
+    }
+    .providing-features-image button{
+        padding: 20px 24px;
+        line-height: normal;
+        bottom: 0;
+        left: 0;
     }
 }
