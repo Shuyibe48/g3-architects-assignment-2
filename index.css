@@ -215,7 +215,87 @@ main{
 }
 
 
+/* some facts section styles */
+.some-fact-title{
+    width: 50%;
+}
+.some-fact-title h2{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.some-fact-title p{
+    color: #727272;
+    line-height: 26px;
+    margin-top: 24px;
+}
+.some-facts-achievements{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.achievement{
+    padding: 45px 36px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+.achievement h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    margin: 10px 0 5px 0;
+}
+.achievement p{
+    font-size: 20px;
+    color: #727272;
+}
 
+
+/* our sopnser section style */
+.our-sponser{
+    margin-top: 180px;
+}
+.sponser-titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponser-title{
+    width: 50%;
+    text-align: center;
+}
+.sponser-title h2{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.sponser-title p{
+    color: #727272;
+    line-height: 26px;
+    margin-top: 24px;
+}
+.sponser-logos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+}
+.sponser-logo img{
+    filter: grayscale(100%);
+}
+
+
+/* footer styles */
+footer{
+    background-color: rgba(255, 144, 14, 0.1);
+    text-align: center;
+    padding: 40px 0;
+}
+footer p{
+    font-size: 20px;
+    color: #424242;
+}
 
 
 
@@ -310,6 +390,39 @@ main{
         bottom: 0;
         left: 0;
     }
+
+    /* some facts section styles */
+    .some-fact-title{
+        width: 100%;
+    }
+    .some-facts-achievements{
+        flex-direction: column;
+        gap: 14px;
+        margin-top: 24px;
+    }
+
+
+    /* our sponser responsive */
+    .our-sponser{
+        margin-top: 30px;
+    }
+    .sponser-titles{
+        justify-content: start;
+    }
+    .sponser-title{
+        width: 100%;
+    }
+    .sponser-title h2{
+        font-size: 2em;
+    }
+    .sponser-title p{
+        line-height: normal;
+    }
+    .sponser-logos{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        margin-top: 24px;
+    }
 }
 
 
@@ -399,5 +512,38 @@ main{
         line-height: normal;
         bottom: 0;
         left: 0;
+    }
+
+    /* some facts section styles */
+    .some-fact-title{
+        width: 80%;
+    }
+    .some-facts-achievements{
+        flex-direction: column;
+        gap: 14px;
+        margin-top: 24px;
+    }
+
+
+    /* our sponser responsive */
+    .our-sponser{
+        margin-top: 45px;
+    }
+    .sponser-titles{
+        justify-content: center;
+    }
+    .sponser-title{
+        width: 80%;
+    }
+    .sponser-title h2{
+        font-size: 3em;
+    }
+    .sponser-title p{
+        line-height: normal;
+    }
+    .sponser-logos{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        margin-top: 34px;
     }
 }
